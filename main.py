@@ -16,6 +16,7 @@ def comm():
 def dis():
     pass
 
-main.protocol("WM_DELETE_WINDOW", dis)
+
+main.protocol("WM_DELETE_WINDOW", dis)        #    For disable window exit[X] Button
 button = Button(main, text="Accept and Close", font="arial 12 bold", fg="midnightblue", bg="aqua", command=comm).place(x=30, y=60)
 main.mainloop()
