@@ -10,7 +10,7 @@ Then run this commands:
 
 ```ruby
 cd yamete-kudasai
-./main
+python main.py
 ```
 
 Enjoy:)))
